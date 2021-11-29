@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection { background: white; color: #000; }
+::selection { background: white; color: #000; }
+
+body{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+.bgimage{
+    background-image: url('../images/DART_MAINPAGE_DESKTOP.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 2vh;
+    margin-right: 2vh;
+    float: right;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    margin-left: auto;
+}
+
+.nav-all{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30vh;
+    padding-top: 1.5vh;
+}
+
+.logo{
+    color: #fff;
+    font-size: 60px;
+}
+
+.navbar-nav{
+    display: flex;
+    margin-left: 5vh;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+}
+
+.navbar-nav a:hover{
+    width: 100%;
+    border-bottom: 1px white solid;
+    transition: all 1s ease-in-out;
+}
+
+.navbar-nav li{
+    list-style-type: none;
+}
+
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav li{
+    list-style-type: none;
+}
+
+.side-nav a{
+    text-align: right;
+    padding: 10px 30px 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ccc;
+    display: block;
+    transform: 0.3s;
+}
+
+.side-nav-links{
+    border-bottom: 1px rgb(83, 83, 83) solid;
+}
+
+.side-nav a:hover{
+    color: #f2f2f2;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.btn-close{
+    margin-right: -2vh;
+    margin-top: 1.75vh;
+}
+
+.content-top{
+    text-align: left;
+    padding-top: 40vh;
+    padding-left: 30vh;
+}
+
+.content-top h1{
+    width: 70vh;
+    font-size: 4.8vh;
+}
+
+.content-top h4{
+    font-size: 2vh;
+    color: #ccc;
+}
+
+.button-rewatch{
+    width: 20vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    border: 3px white solid;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+  
+.button-rewatch a{
+    text-decoration: none;
+    color: white;
+}
+  
+.text-button-rewatch{
+    padding-left: 1vh;
+}
+  
+.button-rewatch:hover{
+    cursor: pointer;
+    background: white;
+    transition: 0.5s ease-in;
+}
+  
+.button-rewatch:hover a{
+    color: #000;
+    transition: 0.5s ease-in;
+}
+
+.current-mission{
+    background-image: url('../images/Homepage_Crew3_outside_Desktop.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.content-current{
+    text-align: left;
+    padding-top: 45vh;
+    padding-left: 30vh;
+}
+
+.content-current h1{
+    width: 40vh;
+    font-size: 4.8vh;
+}
+
+.content-current h4{
+    font-size: 2vh;
+    color: #ccc;
+}
+
+.completed-mission{
+    background-image: url('../images/HP_Crew-2_Return_Website_01_Desktop.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.content-completed{
+    text-align: left;
+    padding-top: 50vh;
+    padding-left: 30vh;
+}
+
+.content-completed h1{
+    width: 50vh;
+    font-size: 4.8vh;
+}
+
+.content-completed h4{
+    font-size: 2vh;
+    color: #ccc;
+}
+
+.recent-launch{
+    background-image: url('../images/Homepage_Starlink_SLC40_Desktop.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.content-recent{
+    text-align: left;
+    padding-top: 55vh;
+    padding-left: 30vh;
+}
+
+.content-recent h1{
+    width: 30vh;
+    font-size: 4.8vh;
+}
+
+.content-recent h4{
+    font-size: 2vh;
+    color: #ccc;
+}
+
+.misson-learn{
+    background-image: url('../images/hls-resized-2.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.content-misson{
+    text-align: left;
+    padding-top: 50vh;
+    padding-left: 30vh;
+}
+
+.content-misson h1{
+    width: 45vh;
+    font-size: 4.8vh;
+}
+
+.button-learn-more{
+    width: 20vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    border: 3px white solid;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+  
+.button-learn-more a{
+    text-decoration: none;
+    color: white;
+}
+  
+.text-button-learn-more{
+    padding-left: 1vh;
+}
+  
+.button-learn-more:hover{
+    cursor: pointer;
+    background: white;
+    transition: 0.5s ease-in;
+}
+  
+.button-learn-more:hover a{
+    color: #000;
+    transition: 0.5s ease-in;
+}
+
+footer{
+    background: #000;
+    padding: 45px;
+    text-align: center;
+}
+
+footer span{
+    font-size: 13px;
+    color: #979797;
+}
+
+footer a{
+    margin-left: 2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #ccc;
+}

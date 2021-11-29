@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <div class="bgimage">
+        <nav>
+            <div class="menu" onclick="openSlideMenu()">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+    
+            <div class="nav-all">
+                <div class="logo">SpaceX</div>
+    
+                <div class="navbar-nav">
+                    <li><a href="">Falcon 9</a></li>
+                    <li><a href="">Falcon Heavy</a></li>
+                    <li><a href="">Dragon</a></li>
+                    <li><a href="">StartShip</a></li>
+                    <li><a href="">Human SpaceFLight</a></li>
+                    <li><a href="">Rideshare</a></li>
+                </div>
+            </div>
+        </nav>
+    
+        <div id="side-menu" class="side-nav">
+            <li><a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a></li>
+            <li><a href="" class="side-nav-links">Mission</a></li>
+            <li><a href="" class="side-nav-links">Launches</a></li>
+            <li><a href="" class="side-nav-links">Carreers</a></li>
+            <li><a href="" class="side-nav-links">Updates</a></li>
+            <li><a href="" class="side-nav-links">Shop</a></li>
+        </div>
+    
+        <div class="content-top">
+            <h4>Recent Launch</h4>
+            <h1>Double Asteroid Redirection Test (Dart) Mission</h1>
+            <div class="button-rewatch">
+                <a href="https://github.com/welel" target="blank">
+                    <span class="text-button-rewatch">RE-WATCH</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="current-mission">
+        <div class="content-current">
+            <h4>Current Mission</h4>
+            <h1>CREW-3 DOCKS TO THE INTERNATIONAL SPACE STATION</h1>
+            <div class="button-rewatch">
+                <a href="https://github.com/welel" target="blank">
+                    <span class="text-button-rewatch">RE-WATCH</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="completed-mission">
+        <div class="content-completed">
+            <h4>COMPLETED MISSION</h4>
+            <h1>CREW-2 RETURNS TO EARTH</h1>
+            <div class="button-rewatch">
+                <a href="https://github.com/welel" target="blank">
+                    <span class="text-button-rewatch">RE-WATCH</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-launch">
+        <div class="content-recent">
+            <h4>RECENT LAUNCH</h4>
+            <h1>STARLINK MISSION</h1>
+            <div class="button-rewatch">
+                <a href="https://github.com/welel" target="blank">
+                    <span class="text-button-rewatch">RE-WATCH</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="misson-learn">
+        <div class="content-misson">
+            <h1>STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON</h1>
+            <div class="button-learn-more">
+                <a href="https://github.com/welel" target="blank">
+                    <span class="text-button-learn-more">Learn More</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            <span>SpaceX © 2021</span>
+                <a href="https://github.com/welel">Twitter</a>
+                <a href="https://github.com/welel">Youtube</a>
+                <a href="https://github.com/welel">Instagram</a>
+                <a href="https://github.com/welel">Flickr</a>
+                <a href="https://github.com/welel">Linkedin</a>
+                <a href="https://github.com/welel">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '350px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0';
+        }
+    </script>
+</body>
+</html>
